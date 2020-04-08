@@ -1,18 +1,17 @@
 @import 'fonts.css';
+@import 'grid.css';
 
 :root {
     /* colors */
     --orange:#FF5A5F;
-    --grey: #484848;
-    --blue: #028489;
-    --w: #ffff;
-    --b: black;
+   
     /* fonts */
-    --f900: 'Montserrat_Black';
-    --f700: 'Montserrat_Bold';
-    --f300: 'Montserrat_Light';
-    --f400: 'Montserrat_Regular';
-    --f100: 'Montserrat_Thin';
+    --L100: 'Lato-Thin';
+    --L300: 'Lato-Light';
+    --L400: 'Lato-Regular';
+    --LI300: 'Lato-LightItalic';
+ 
+   
     /* cols size*/
     --col-1: calc(100% / 12 * 1);
     --col-2: calc(100% / 12 * 2);
@@ -38,6 +37,15 @@
     color: inherit;
     scroll-behavior: smooth;
 }
+html{
+    background-color: #ffff;
+    color: #555;
+    font-family: var(--L400), 'Ariel', sans-serif;
+    font-weight: 300;
+    font-style: 20px;
+    text-rendering: optimizeLegibility;
+
+}
 
 .container {
     max-width: 1140px;
@@ -47,10 +55,11 @@
 }
 
 .row {
+    max-width: 1140px;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    margin-left: -15px;
-    margin-right: -15px;
+   
 }
 .d-flex{
     display: flex;

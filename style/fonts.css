@@ -1,20 +1,16 @@
 @font-face{
-    font-family: 'Montserrat_Black';
-    src: url(../fonts/montserrat/Montserrat-Black.ttf);
+    font-family: 'Lato-Thin';
+    src: url(../fonts/Lato/Lato-Thin.ttf);
 }
 @font-face{
-    font-family: 'Montserrat_Bold';
-    src: url(../fonts/montserrat/Montserrat-Bold.ttf);
+    font-family: 'Lato-Light';
+    src: url(../fonts/Lato/Lato-Light.ttf);
 }
 @font-face{
-    font-family: 'Montserrat_Light';
-    src: url(../fonts/montserrat/Montserrat-Light.ttf);
+    font-family: 'Lato-Regular';
+    src: url(../fonts/Lato/Lato-Regular.ttf);
 }
 @font-face{
-    font-family: 'Montserrat_Regular';
-    src: url(../fonts/montserrat/Montserrat-Regular.ttf);
-}
-@font-face{
-    font-family: 'Montserrat_Thin';
-    src: url(../fonts/montserrat/Montserrat-Thin.ttf);
+    font-family: 'Lato-LightItalic';
+    src: url(../fonts/Lato/Lato-LightItalic.ttf);
 }
