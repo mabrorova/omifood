@@ -1,4 +1,5 @@
 @import "root.css";
+
 /*----------------*/
 /*BUTTONS*/
 /*----------------*/
@@ -182,3 +183,30 @@ h2{
      opacity: 1;
      transform: scale(1.03);
  }
+
+ /*HOW IT WORKS*/
+  .steps h2{
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+ }
+ .step-box{
+     margin-top: 30px;
+ }
+ .step-box:first-child{
+text-align: right;
+padding-right: 3%;
+ }
+ .step-box:last-child{
+     padding-left: 3%;
+}
+.app-screen{
+    width: 40%;
+}
+.works-step{
+margin-bottom: 50px;
+}
