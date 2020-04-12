@@ -1,6 +1,5 @@
 @import "root.css";
 
-/*----------------*/
 /*BUTTONS*/
 /*----------------*/
 .btn:link,
@@ -44,6 +43,7 @@
 
 header{
     background: linear-gradient(rgba(0, 0, 0, 0.7), #000000),url(../images/hero.jpg) no-repeat center center / cover;
+    background-attachment: fixed;
     height: 100vh;
 }
 .hero-text-box{
@@ -184,7 +184,11 @@ h2{
      transform: scale(1.03);
  }
 
- /*HOW IT WORKS*/
+ /*Steps*/
+ .steps{
+     background-color: #f4f4ff;
+ }
+
   .steps h2{
     font-weight: 300;
     text-transform: uppercase;
@@ -194,19 +198,159 @@ h2{
     text-align: center;
     margin-bottom: 30px;
  }
- .step-box{
-     margin-top: 30px;
- }
+
  .step-box:first-child{
 text-align: right;
 padding-right: 3%;
+margin-top: 30px;
  }
  .step-box:last-child{
      padding-left: 3%;
+     margin-top: 70px;
 }
 .app-screen{
     width: 40%;
 }
 .works-step{
 margin-bottom: 50px;
+}
+.works-step:last-of-type{
+    margin-bottom: 80px;
+}
+
+.works-step div{
+    color: #e67e22;
+    border: 2px solid #e67e22;
+    display: inline-block;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    float: left;
+    text-align: center;
+    font-size: 150%;
+    margin-right: 20px;
+}
+.btn-app:link,
+.btn-app:visited{
+    border: 0;
+}
+.btn-app img{
+height: 50px;
+width: auto;
+margin-right: 10px;
+}
+/*Cities*/
+
+.box img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+.city_feature{
+    margin-bottom: 5px;
+}
+ .icon_small{
+     display: inline-block;
+     width: 30px;
+    text-align: center;
+    color: #e67e22;
+    font-size: 120%;
+    margin-top: -5px;
+    margin-right: 10px;
+
+    /*Sectret to align text and icons*/
+    /* line-height: 120%;
+    vertical-align: middle; */
+}
+.city_feature a:link, 
+a:visited {
+color: #e67e22;
+padding-bottom: 1px;
+border-bottom: 1px solid #e67e22;
+transition: border-bottom 0.2s, color 0.2s;
+}
+a:hover,
+a:active{
+color: #555555;
+border-bottom: 1px solid transparent;
+
+}
+
+/*Testimonials*/
+.testimonials{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)) ,url(../images/back-customers.jpg);
+    background-size: cover;
+    color: white;
+    background-attachment: fixed;
+
+}
+blockquote{
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+}
+cite{
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+}
+blockquote::before{
+    content: '\201C';
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+
+}
+cite img{
+    height: 45px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+/*Plan*/
+.plan{
+    background-color: #f4f4f4;
+}
+.plan-box{
+    background-color: #fff;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5px;
+    box-shadow:  0 2px 2px #d4d2d4
+
+}
+.plan-box div{
+padding: 15px;
+border-bottom:  1px solid #e8e8e8;
+}
+.plan-box div:first-child{
+    background-color: #fcfcfc;
+}
+.plan-box div:last-child{
+    text-align: center;
+    border: none;
+}
+.plan_price{
+    font-size: 300%;
+    margin-bottom: 10px;
+    font-weight: 200;
+    color: #e67e22;
+}
+.plan_price span{
+    font-size: 30%;
+    font-weight: 300;
+    color: #e67e22;
+}
+.plan_price_month{
+    font-size: 80%;
+}
+.plan-box ul{
+    list-style: none;
+}
+.plan-box ul li{
+    padding: 5px 0;
 }

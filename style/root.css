@@ -47,6 +47,15 @@ html{
 
 }
 
+.clearfix{zoom: 1;}
+.clearfix::after{
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
 .container {
     max-width: 1140px;
     width: 100%;
