@@ -37,14 +37,15 @@
     color: inherit;
     scroll-behavior: smooth;
 }
-html{
+html,
+body{
     background-color: #ffff;
     color: #555;
     font-family: var(--L400), 'Ariel', sans-serif;
     font-weight: 300;
     font-style: 20px;
     text-rendering: optimizeLegibility;
-
+    overflow-x:hidden; 
 }
 
 .clearfix{zoom: 1;}
